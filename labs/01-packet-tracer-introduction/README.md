@@ -1,29 +1,37 @@
 # Lab 01 — Packet Tracer Introduction
 
-## Objective
-
-Keep the original Packet Tracer project for this introductory lab and document the verified tasks as you complete them.
-
 ## Project file
 
-`Packet Tracer Introduction.pkt`
+[**Packet Tracer Introduction.pkt**](Packet%20Tracer%20Introduction.pkt)
 
-> The `.pkt` file still needs to be uploaded to this folder. Open the supplied project in Cisco Packet Tracer and use a separate copy when experimenting.
+Open this project in Cisco Packet Tracer to inspect the lab and complete its activities. The project file is included in this folder.
 
-## Lab notes
+## Lab objectives
 
-Record the following after inspecting the project:
+Use this introductory project to become familiar with opening and navigating a Packet Tracer workspace. Confirm the specific tasks and expected results from the instructions included in the project or supplied with the lab; do not assume devices, addressing, or configurations that have not been verified.
 
-- **Topology:** devices, links, and interface connections
-- **Addressing:** IP addresses, masks, and gateways, if configured
+## Working through the lab
+
+1. Open `Packet Tracer Introduction.pkt` in Cisco Packet Tracer.
+2. Inspect the workspace, devices, links, and any on-screen instructions.
+3. Complete the activities specified by the lab.
+4. Verify the results using the relevant Packet Tracer tools and device commands.
+5. Save a separate working copy before making experimental changes.
+
+## Lab notes to record
+
+After inspecting and completing the project, add verified details here:
+
+- **Topology:** device names, device types, and connections
+- **Addressing:** configured IP addresses, subnet masks, and gateways, if applicable
 - **Configuration:** commands or GUI steps performed
-- **Verification:** commands and observed results
-- **Troubleshooting:** issue, root cause, and fix
+- **Verification:** commands run and the results observed
+- **Troubleshooting:** symptoms, root cause, and resolution
 
-## Verification checklist
+## Completion checklist
 
-- [ ] Open the project successfully in Cisco Packet Tracer
-- [ ] Identify the devices and connections
-- [ ] Verify the intended task(s)
-- [ ] Save screenshots or command output where useful
-- [ ] Record only results that were actually verified
+- [ ] Project opens successfully
+- [ ] Lab instructions and objectives are identified
+- [ ] Required activities are completed
+- [ ] Results are verified
+- [ ] Notes reflect the actual project and observed results
