@@ -1,54 +1,114 @@
 # Cisco Networking Labs
 
-A hands-on Cisco networking portfolio built with **Cisco Packet Tracer**. The repository documents practical exercises covering network fundamentals, IPv4 addressing, Ethernet switching, static routing, and basic device security.
+A practical networking portfolio built with **Cisco Packet Tracer**, focused on designing, configuring, and troubleshooting routed and switched networks.
 
-The goal is to build networking knowledge progressively through topology design, device configuration, and connectivity verification.
+This repository contains hands-on labs that progress from basic connectivity and IPv4 addressing to enterprise switching, dynamic routing, redundancy, network services, security, and traffic management.
 
-## Overview
+## Repository at a glance
 
 - **Platform:** Cisco Packet Tracer
-- **Focus:** Networking fundamentals and enterprise networking foundations
-- **Format:** Individual `.pkt` lab projects
-- **Documentation:** This root README is the central lab index; individual lab README files are intentionally not used.
+- **Lab collection:** 32 topic folders
+- **Project format:** Packet Tracer `.pkt` files
+- **Coverage:** Network fundamentals, switching, routing, infrastructure services, security, and QoS
+- **Documentation:** One central README catalog; lab files remain organized in their topic folders.
 
 ## Lab catalog
 
-| # | Lab | Main topics | Project file |
+The catalog is grouped by technical area to make it easier to navigate. Each link opens the corresponding folder, where the Packet Tracer project files are stored.
+
+### 1. Networking fundamentals
+
+| # | Lab | Topics / exercises | Files |
 |---:|---|---|---|
-| 01 | Packet Tracer Introduction | Packet Tracer workspace, devices, connections, and simulation environment | [Open lab](labs/01-packet-tracer-introduction/Packet%20Tracer%20Introduction.pkt) |
-| 02 | Connecting Devices | Device connections and basic network connectivity | [Open lab](labs/02-connecting-devices/Connecting%20Devices.pkt) |
-| 03 | OSI Model | OSI layers and the role of each layer in network communication | [Open lab](labs/03-osi-model/OSI%20Model.pkt) |
-| 04 | IPv4 Addresses | IPv4 addressing fundamentals | [Open lab](labs/04-ipv4-addresses/IPv4%20Addresses.pkt) |
-| 05 | Ethernet LAN Switching | Ethernet LAN communication and switching fundamentals | [Open lab](labs/05-ethernet-lan-switching/Ethernet%20LAN%20Switching.pkt) |
-| 06 | Configuring Static Routes | Static routing and communication between networks | [Open lab](labs/06-static-routes/Configuring%20Static%20Routes.pkt) |
-| 07 | Basic Device Security | Foundational network-device security configuration | [Open lab](labs/07-basic-device-security/Basic%20Device%20Security.pkt) |
+| 01 | Packet Tracer Introduction | Packet Tracer environment and simulation workflow | [Lab files](labs/01-packet-tracer-introduction/) |
+| 02 | Connecting Devices | Connecting network devices and basic router configuration | [Lab files](labs/02-connecting-devices/) |
+| 03 | OSI Model | OSI layers and packet communication concepts | [Lab files](labs/03-osi-model/) |
+| 04 | IPv4 Addresses | IPv4 addressing fundamentals | [Lab files](labs/04-ipv4-addresses/) |
+| 05 | Ethernet LAN Switching | Ethernet frames and Layer 2 switching | [Lab files](labs/05-ethernet-lan-switching/) |
+| 06 | Configuring Static Routes | Static routes and inter-network connectivity | [Lab files](labs/06-static-routes/) |
+| 07 | Basic Device Security | Router security, local credentials, and password configuration | [Lab files](labs/07-basic-device-security/) |
+| 08 | Interface Configuration | Interface setup and configuration | [Lab files](labs/08-interface-configuration/) |
+| 09 | Troubleshooting Static Routes | Diagnosing and correcting static-routing problems | [Lab files](labs/09-troubleshooting-static-routes/) |
+| 10 | Life of a Packet | Packet forwarding and the path traffic takes through a network | [Lab files](labs/10-life-of-packet/) |
+| 11 | VLSM | Variable Length Subnet Masking and address allocation | [Lab files](labs/11-VLSM/) |
 
-## Technical learning objectives
+### 2. Switching and Layer 2 technologies
 
-The labs are organized as a progression from foundational concepts toward device configuration:
+| # | Lab | Topics / exercises | Files |
+|---:|---|---|---|
+| 12 | VLAN Configuration | VLAN creation, assignment, trunking, and router-on-a-stick | [Lab files](labs/12-VLAN/) |
+| 13 | Multilayer Switching | Layer 3 switching and inter-VLAN routing | [Lab files](labs/13-multilayer-switching/) |
+| 14 | DTP and VTP | Dynamic Trunking Protocol and VLAN Trunking Protocol | [Lab files](labs/14-dtp-vtp/) |
+| 15 | Analyzing STP | Spanning Tree operation and topology analysis | [Lab files](labs/15-analyzing-stp/) |
+| 16 | Configuring Spanning Tree | STP configuration and root-bridge behavior | [Lab files](labs/16-configure-spanning-tree/) |
+| 17 | Rapid STP | Rapid Spanning Tree Protocol (RSTP) | [Lab files](labs/17-rapid-stp/) |
+| 18 | EtherChannel | Link aggregation and EtherChannel configuration | [Lab files](labs/18-etherchannel/) |
 
-1. **Understand the environment:** Become familiar with Packet Tracer and its device, cabling, and simulation workflows.
-2. **Build connectivity:** Connect network devices and examine how endpoints communicate.
-3. **Understand network communication:** Relate network behavior to the OSI reference model.
-4. **Work with IPv4:** Understand the role of IPv4 addresses in identifying devices and networks.
-5. **Explore Layer 2:** Learn the fundamentals of Ethernet LAN switching.
-6. **Connect different networks:** Understand how static routes enable traffic to reach remote networks.
-7. **Apply basic security:** Practice foundational device-security concepts.
+### 3. Routing and high availability
 
-> Lab-specific configurations, topology details, addressing information, and verification results should be taken from the corresponding Packet Tracer project. They are not assumed or fabricated in this overview.
+| # | Lab | Topics / exercises | Files |
+|---:|---|---|---|
+| 19 | Floating Static Routes | Backup static routes and route preference | [Lab files](labs/19-floating-static-toutes/) |
+| 20 | Configuring OSPF | Open Shortest Path First routing protocol | [Lab files](labs/20-configuring-ospf/) |
+| 21 | HSRP Configuration | First-hop redundancy and gateway availability | [Lab files](labs/21-HSRP-Config/) |
+| 22 | IPv6 Configuration and Static Routes | IPv6 addressing and static routing | [Lab files](labs/22-Ipv6-Config_Static-Routes/) |
+
+### 4. Network security, services, and operations
+
+| # | Lab | Topics / exercises | Files |
+|---:|---|---|---|
+| 23 | Access Control Lists | Standard and extended ACLs | [Lab files](labs/23-ACL/) |
+| 24 | CDP and LLDP | Layer 2 neighbor discovery | [Lab files](labs/24-CDP%20%26%20LLDP/) |
+| 25 | NTP | Network Time Protocol and clock synchronization | [Lab files](labs/25-NTP/) |
+| 26 | DNS | Domain Name System configuration | [Lab files](labs/26-DNS/) |
+| 27 | DHCP | Dynamic Host Configuration Protocol and DHCP snooping | [Lab files](labs/27-DHCP/) |
+| 28 | SNMP | Simple Network Management Protocol | [Lab files](labs/28-SNMP/) |
+| 29 | Syslog | Centralized logging and event messages | [Lab files](labs/29-Syslog/) |
+| 30 | SSH | Secure remote device management | [Lab files](labs/30-SSH/) |
+| 31 | NAT | Static and dynamic Network Address Translation | [Lab files](labs/31-NAT/) |
+
+### 5. Traffic management
+
+| # | Lab | Topics / exercises | Files |
+|---:|---|---|---|
+| 32 | QoS | Quality of Service fundamentals and traffic prioritization | [Lab files](labs/32-QoS/) |
+
+## Learning outcomes
+
+Working through these labs provides practical exposure to:
+
+- Building network topologies and connecting routers, switches, and end devices.
+- Configuring IPv4/IPv6 addressing, subnetting, and VLSM.
+- Implementing VLANs, trunk links, inter-VLAN routing, STP, RSTP, and EtherChannel.
+- Configuring static routes, OSPF, and first-hop redundancy with HSRP.
+- Applying ACLs and securing device management with SSH.
+- Working with infrastructure services such as DHCP, DNS, NTP, SNMP, and Syslog.
+- Understanding NAT, neighbor discovery, and QoS concepts.
 
 ## Getting started
 
 1. Install [Cisco Packet Tracer](https://www.netacad.com/cisco-packet-tracer).
-2. Clone this repository:
+2. Clone the repository:
    ```bash
    git clone https://github.com/Hovhannisian-Sahak/cisco-networking-labs.git
    cd cisco-networking-labs
    ```
-3. Open the desired `.pkt` file in Cisco Packet Tracer.
-4. Inspect the topology and any instructions included in the project.
-5. Complete the configuration and test connectivity or other expected behavior.
-6. Save your experiments as a separate working copy so the committed lab remains unchanged.
+3. Browse the [lab catalog](#lab-catalog) and open a topic folder.
+4. Open a `.pkt` file in Cisco Packet Tracer.
+5. Inspect the topology and any instructions included in the project.
+6. Save experiments as a separate working copy to keep the repository's original lab files unchanged.
+
+## Lab verification
+
+Use Packet Tracer's Realtime and Simulation modes to examine and validate network behavior. Depending on the exercise, useful checks include:
+
+- `show ip interface brief` and `show ipv6 interface brief` — interface status and addressing.
+- `show vlan brief` and `show interfaces trunk` — VLAN and trunk state.
+- `show spanning-tree` and `show etherchannel summary` — Layer 2 redundancy and aggregation.
+- `show ip route` and `show ip ospf neighbor` — routing table and OSPF adjacency.
+- `ping` and `traceroute` — end-to-end reachability and packet path.
+
+Command availability depends on the device model and Packet Tracer version. Record outcomes as verified only after testing the corresponding topology.
 
 ## Repository structure
 
@@ -58,48 +118,24 @@ cisco-networking-labs/
 ├── .gitignore
 └── labs/
     ├── 01-packet-tracer-introduction/
-    │   └── Packet Tracer Introduction.pkt
     ├── 02-connecting-devices/
-    │   └── Connecting Devices.pkt
     ├── 03-osi-model/
-    │   └── OSI Model.pkt
-    ├── 04-ipv4-addresses/
-    │   └── IPv4 Addresses.pkt
-    ├── 05-ethernet-lan-switching/
-    │   └── Ethernet LAN Switching.pkt
-    ├── 06-static-routes/
-    │   └── Configuring Static Routes.pkt
-    └── 07-basic-device-security/
-        └── Basic Device Security.pkt
+    ├── ...
+    └── 32-QoS/
 ```
 
-## How to verify a lab
+Each lab folder contains its associated Packet Tracer project file(s). The root README serves as the central index, so separate README files are not maintained inside individual lab folders.
 
-For each exercise, use Packet Tracer to inspect the topology and validate the intended behavior. Depending on the lab, useful checks may include:
+## Future directions
 
-- Confirming interface and link status.
-- Reviewing device addressing and configuration.
-- Testing end-to-end connectivity with `ping`.
-- Inspecting packet flow in Simulation mode.
-- Checking relevant device command output.
+Possible next steps for expanding this portfolio include:
 
-Only record a result as verified after testing it in the corresponding lab.
+- More complex multi-site enterprise topologies.
+- Integrated scenarios combining VLANs, routing, ACLs, DHCP, and redundancy.
+- Network automation with Ansible and Python.
+- Monitoring and troubleshooting workflows using operational data.
+- More topology diagrams, configuration notes, and verified test results.
 
-## Future improvements
+---
 
-Planned areas for expanding the lab collection include:
-
-- VLANs and trunking
-- Inter-VLAN routing
-- DHCP and DNS
-- Spanning Tree Protocol (STP)
-- EtherChannel and link aggregation
-- First-hop redundancy (HSRP)
-- Access Control Lists (ACLs)
-- Network automation and monitoring
-
-These are potential future topics, not claims that the current lab files already implement them.
-
-## Repository documentation
-
-This root README is the single documentation index for the project. Lab-specific notes can be added here as each topology and its configurations are inspected and verified. No separate README files are maintained inside individual lab folders.
+**Purpose:** A growing, hands-on collection for practicing Cisco networking concepts and documenting practical network engineering skills.
